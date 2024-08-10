@@ -102,6 +102,26 @@
 			padding-bottom: 2em;
 		}
 
+		.float_right_box {
+			/* display: inline-block; */
+			float: right;
+		}
+
+		.qr_code_img {
+			vertical-align:middle; 
+			border-radius: 5%; 
+			min-width:100px; 
+			max-width: 120px; 
+			margin: 5px 20px 5px 20px; 
+			text-align: center;
+		}
+
+		.img_banner {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
 		img {
 			border: 2px solid #fff;
 			padding: 2px;
@@ -120,28 +140,31 @@
 	</h1>
 
 	<div class="content-middle">
-		<h4>数字化转型解决方案提供商</h4>
-		<h5>Digital Transformation Solution Providers</h5>
+		<!-- <h4>数字化转型解决方案提供商</h4> -->
+		<!-- <h5>Digital Transformation Solution Providers</h5> -->
+		<h3>奇客未能找到您要访问的页面，请检查您要访问的网址是否正确！</h3>
+		<p>如果您认为这是奇客网站的错误，请 <a href="https://feedback.freegeeker.com" target="_blank">在线反馈</a> 或发送邮件到 <a
+			href="mailto:alanljj@gmail.com">奇客网站管理员的邮箱</a>，谢谢！</p>
 	</div>
 	<!-- geeker banner -->
-	<div class="content-middle"">
-		<h2><a title=" GeekerCloud" href="https://www.geekercloud.com"><img title="GeekerCloud奇客罗方智能科技"
+	<div class="content-middle margin_top20 img_banner">
+		<a title=" GeekerCloud" href="https://www.geekercloud.com"><img title="GeekerCloud奇客罗方智能科技"
 			src="https://pic.geekercloud.com/uploads/big/a93f7627735b032901f08b7f54ab2c92.jpg" width="570"
 			height="92" /></a>
-		</h2>
 
-		<h2><a title="Geeker Consulting" href="https://www.geekerconsulting.com"><img title="Geeker Consulting奇客顾问"
+		<a title="Geeker Consulting" href="https://www.geekerconsulting.com"><img title="Geeker Consulting奇客顾问"
 					src="https://www.geekerconsulting.com/pic/geekerconsulting570x92.jpg" width="570" height="92" /></a>
-		</h2>
+		
 
-		<h2><a title="FreeGeeker自由奇客" href="https://www.freegeeker.com"><img title="FreeGeeker自由奇客"
-					src="https://www.geekerconsulting.com/pic/freegeeker570x92.jpg" width="570" height="92" /></a></h2>
+		<a title="FreeGeeker自由奇客" href="https://www.freegeeker.com"><img title="FreeGeeker自由奇客"
+					src="https://www.geekerconsulting.com/pic/freegeeker570x92.jpg" width="570" height="92" /></a>
 
-		<h2><a title="ITGeeker技术奇客" href="https://www.itgeeker.net"><img title="ITGeeker技术奇客"
-					src="https://www.geekerconsulting.com/pic/itgeeker570x92.jpg" width="570" height="92" /></a></h2>
+		<a title="ITGeeker技术奇客" href="https://www.itgeeker.net"><img title="ITGeeker技术奇客"
+					src="https://www.geekerconsulting.com/pic/itgeeker570x92.jpg" width="570" height="92" /></a>
 	</div>
 
-	<div class="content-middle">
+	<!-- circle logo area -->
+	<!-- <div class="content-middle">
 		<a href="https://www.geekercloud.com"><img title="Geeker Cloud"
 				src="https://pic.geekercloud.com/uploads/original/ae/48/e240542148a2ac6f94d3041544d6.png" width="150"
 				height="150" /></a>
@@ -153,7 +176,7 @@
 		<a href="https://www.itgeeker.net"><img title="ITGeeker"
 				src="https://www.geekerconsulting.com/pic/logo/itgeekerlogocircle150.png" width="150"
 				height="150" /></a>
-	</div>
+	</div> -->
 
 	<hr />
 
@@ -205,8 +228,15 @@
 	<!-- <hr /> -->
 
 	<div class="center with-board margin_top20">
+		<div class="float_right_box">
+			<a href="https://www.geekercloud.com"><img title="Geeker Cloud"
+				src="https://pic.geekercloud.com/uploads/original/ae/48/e240542148a2ac6f94d3041544d6.png" width="150"
+				height="150" /></a>
+		</div>
 		<div class="content-introduction">
-			<h2 class="content-middle">关于奇客罗方智能科技 -- <a href="https://www.geekercloud.com">数字化转型解决方案提供商</a></h2>
+			<h2 class="content-middle">关于奇客罗方智能科技</h2>
+			<h5 class="content-middle">数字化转型解决方案提供商</h5>
+			<h6 class="content-middle">Digital Transformation Solution Providers</h6>
 			<p>奇客罗方是一家专注于为企业提供数字化转型解决方案的智能科技有限公司。公司总部位于上海市徐家汇的上海交通大学国家大学科技园内。</p>
 
 			<h6>公司专注的业务领域包括：</h6>
@@ -217,13 +247,12 @@
 				<li>Odoo软件开发及实施。</li>
 			</ul>
 
-			<p>
-				旗下招聘管理软件“奇客大师（GeekerMaster）”已服务于众多猎头及企业招聘管理团队。公司开发的微信小程序“灵售”是专为零售行业开发的智慧招聘平台也已投入运营。简历信息采集插件已通过微软合作伙伴和谷歌的官方审核正式在两大应用商店上架，已被广泛应用于各类专家库及招聘行业的人才库采集当中。
+			<p>旗下招聘管理软件“奇客大师（GeekerMaster）”已服务于众多猎头及企业招聘管理团队。公司开发的微信小程序“灵售”是专为零售行业开发的智慧招聘平台也已投入运营。简历信息采集插件已通过微软合作伙伴和谷歌的官方审核正式在两大应用商店上架，已被广泛应用于各类专家库及招聘行业的人才库采集当中。
 			</p>
 
 			<h3 class="content-middle">信任 TRUSTED | 专业 EXPERT | 承诺 COMMITTED | 伙伴 PARTNERS</h3>
 
-			<p class="content-middle"><a href="https://www.geekercloud.com">http://www.geekercloud.com</a></p>
+			<p class="content-middle"><a href="https://www.geekercloud.com">www.geekercloud.com</a></p>
 		</div>
 	</div>
 
@@ -231,37 +260,24 @@
 		<tbody>
 			<tr colspan="2" class="content-middle">
 				<td colspan="2">
-					<a href="https://www.geekercloud.com" style="text-decoration:none;"><img
-							src="https://pic.geekercloud.com/uploads/original/54/ff/45f068681734b1b536ba3e12b34e.jpg"
-							style="vertical-align:middle; border-radius: 5%; min-width:100px; max-width: 150px; margin: 5px 20px 5px 20px; text-align: center;"
-							alt="奇客罗方公众号">
+					<a href="https://www.geekercloud.com" style="text-decoration:none;"><img src="https://pic.geekercloud.com/uploads/original/54/ff/45f068681734b1b536ba3e12b34e.jpg" class="qr_code_img" alt="奇客罗方公众号">
 					</a>
-					<a href="http://www.geekercloud.com" style="text-decoration:none;"><img
-							src="https://pic.geekercloud.com/uploads/big/7ebdd4a5432343f112fd16ae49b334da.jpg"
-							style="vertical-align:middle; border-radius: 5%; min-width:100px; max-width: 150px; margin: 5px 20px 5px 20px; text-align: center;"
-							alt="奇客罗方小程序">
+					<a href="https://www.geekercloud.com" style="text-decoration:none;"><img src="https://pic.geekercloud.com/uploads/big/7ebdd4a5432343f112fd16ae49b334da.jpg" class="qr_code_img" alt="奇客罗方小程序">
 					</a>
-					<a href="http://www.geekercloud.com" style="text-decoration:none;"><img
-							src="https://pic.geekercloud.com/uploads/original/b9/c2/84dbe95c7a62fb09d988a81bfd3e.png"
-							style="vertical-align:middle; border-radius: 5%; min-width:100px; max-width: 150px; margin: 5px 20px 5px 20px; text-align: center;"
-							alt="奇客罗方客服">
+					<a href="https://www.geekercloud.com" style="text-decoration:none;"><img src="https://pic.geekercloud.com/uploads/original/b9/c2/84dbe95c7a62fb09d988a81bfd3e.png" class="qr_code_img" alt="奇客罗方客服">
 					</a>
-					<a href="https://t.me/itgeeker" style="text-decoration:none;"><img
-							src="https://pic.geekercloud.com/uploads/original/9e/bf/cd36f7d6a8e0354e9503fbdc840f.jpg"
-							style="vertical-align:middle; border-radius: 5%; min-width:100px; max-width: 150px; margin: 5px 20px 5px 20px; text-align: center;"
-							alt="ITGeeker Telegram">
+					<a href="https://t.me/itgeeker" style="text-decoration:none;"><img src="https://pic.geekercloud.com/uploads/original/9e/bf/cd36f7d6a8e0354e9503fbdc840f.jpg" class="qr_code_img" alt="ITGeeker Telegram">
 					</a>
+					<!-- <a href="https://www.itgeeker.net"><img title="ITGeeker" src="https://pic.geekercloud.com/uploads/thumb/bd5dd9966c7c1b98e55ea50eb766e576.jpeg" class='qr_code_img'/></a> -->
 				</td>
 			</tr>
-
+	
 			<tr colspan="2">
 				<td colspan="2" class="content-middle">
 					<p style="text-align: center; font-size: x-small;">
-						网站由<a href="https://www.itgeeker.net">ITGeeker技术奇客</a>开发并管理；隶属于<a
-							href="https://www.geekercloud.com">GeekerCloud奇客罗方智能科技</a>
+						网站由<a href="https://www.itgeeker.net">ITGeeker技术奇客</a>开发并管理；隶属于<a href="https://www.geekercloud.com">GeekerCloud奇客罗方智能科技</a>
 						</br>
-						Site designed and developed by <a href="https://www.itgeeker.net">ITGeeker</a>which is a
-						sub-website of <a href="https://www.geekercloud.com">GeekerCloud</a>
+						Site designed and developed by <a href="https://www.itgeeker.net">ITGeeker</a>which is a sub-website of <a href="https://www.geekercloud.com">GeekerCloud</a>
 					</p>
 				</td>
 			</tr>
