@@ -1,4 +1,4 @@
-# 自由奇客 (Free Geeker)
+# 自由奇客 (FreeGeeker)
 
 ## 关于我们
 
@@ -10,7 +10,7 @@
 
 ## 网站描述
 
-自由奇客 (Free Geeker) 是一个专注于职场、科技、人才和创新的资讯和分析平台。我们关注企业管理、薪酬福利、职业发展、行业动态等话题，为广大从业者提供有价值的信息和见解。
+自由奇客 (FreeGeeker) 是一个专注于职场、科技、人才和创新的资讯和分析平台。我们关注企业管理、薪酬福利、职业发展、行业动态等话题，为广大从业者提供有价值的信息和见解。
 
 ---
 
@@ -63,4 +63,4 @@
 
 ## 关键话题
 
-职业发展 | 薪酬福利 | 企业管理 | 人才招聘 | 行业分析 | 科技趋势 | 职场新闻 | 职业规划
+[职业发展](https://www.freegeeker.com/tag/career/) | [薪酬福利](https://www.freegeeker.com/tag/compensation/) | [企业管理](https://www.freegeeker.com/tag/strategic/) | [人才招聘](https://www.freegeeker.com/tag/recruitment/) | [行业分析](https://www.freegeeker.com/tag/industry/) | [科技趋势](https://www.freegeeker.com/tag/technology/) | [职场](https://www.freegeeker.com/tag/%e8%81%8c%e5%9c%ba/) | [面试](https://www.freegeeker.com/tag/%e9%9d%a2%e8%af%95/)
